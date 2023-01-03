@@ -6,6 +6,8 @@
 # 
 # TASK: Create an R Shiny dashboard to report on the gross income performance of a company across its stores and departments. 
 #
+# Data Link: https://www.kaggle.com/datasets/aungpyaeap/supermarket-sales
+#
 #
 
 # Packages
@@ -22,7 +24,7 @@ library(data.tree)
 
 
 # Set the working directory
-setwd("C://Users//thebr//Documents//Data Analysis For Fun//Career Enhancement Projects//Company Sales Shiny Dashboard//Data//")
+setwd("C://Users//Your//Data//Directory//")
 
 # Import the data
 salesData <- read.csv("supermarket_sales - Sheet1.csv")
